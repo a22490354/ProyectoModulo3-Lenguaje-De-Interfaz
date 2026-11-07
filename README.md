@@ -22,15 +22,15 @@ Elimina el ciclo por completo; el CPU cuenta los 64 bits en una instrucción de 
 El programa genera 100 millones de números aleatorios, mide el tiempo de cada versión con clock(), verifica que ambos totales coincidan y muestra la mejora.
 
 Instrucciones de compilación
-# Método 3 (POPCNT) — versión principal
+Metodo 3 (POPCNT) - version principal
 gcc -O0 -o acelerador main.c
 acelerador.exe
 
-# Método 1 (SHR + ADC)
+Metodo 1 (SHR +ADC=
 gcc -O0 -DMETODO=1 -o acelerador main.c
 acelerador2.exe
 
-# Método 2 (Kernighan)
+Metodo 2 (Kernigham)
 gcc -O0 -DMETODO=2 -o acelerador main.c
 acelerador3.exe
 
